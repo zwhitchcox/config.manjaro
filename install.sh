@@ -7,3 +7,4 @@ source $INSTALL_DIR/prepare.sh
 bash $INSTALL_DIR/rustup.sh || echo failed to install rustup
 bash $INSTALL_DIR/nvm.sh || echo failed to install nvm
 bash $INSTALL_DIR/neovim.sh || echo failed to install neovim
+bash $INSTALL_DIR/base.sh
